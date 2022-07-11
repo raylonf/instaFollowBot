@@ -6,7 +6,7 @@ from time import sleep
 from tkinter import *
 from tkinter import Tk, messagebox
 
-chrome_path = '../intafollowbot/chromedriver.exe'
+chrome_path = './chromedriver.exe'
 
 
 class InstaFollower:
@@ -88,7 +88,7 @@ window.title('Password Manager')
 window.config(padx=40, pady=40, background='#E6E6FA')
 
 canvas = Canvas(width=300, height=102, highlightthickness=0)
-instagram_image = PhotoImage(file='../intafollowbot/instagram-logo2.png')
+instagram_image = PhotoImage(file='./instagram-logo2.png')
 canvas.create_image(50, 50, image=instagram_image)
 canvas.grid(row=0, column=1, pady=40)
 canvas.config(background='#E6E6FA')
